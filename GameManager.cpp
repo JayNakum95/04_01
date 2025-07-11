@@ -10,7 +10,7 @@ GameManager::GameManager() : currentSceneNo_(TITLE), previousSceneNo_(TITLE) {
 	sceneArray_[STAGE] = std::make_unique<StageScene>();// Initialize stage scene
 	sceneArray_[CLEAR] = std::make_unique<ClearScene>();// Initialize clear scene
 
-	currentSceneNo_ = TITLE;// Set the initial scene to TITLE
+	currentSceneNo_ = TITLE;// Set the initial scene to   TITLE
 
 }
 
