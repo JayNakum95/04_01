@@ -33,3 +33,9 @@ this->pos.x += this->speed.x; // Implement player movement to the right
 void Player::MoveLeft() {  
 	this->pos.x -= this->speed.x; // Implement player movement to the left  
 }
+void Player::MoveUp() {
+	this->pos.y -= this->speed.y; // Implement player movement up  
+}
+void Player::MoveDown() {
+	this->pos.y += this->speed.y; // Implement player movement down  
+}

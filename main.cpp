@@ -1,7 +1,7 @@
 #include <Novice.h>
 #include "GameManager.h"
 
-const char kWindowTitle[] = "GC2B_07_ナクム_ジェイ_ハルシュバルダン";
+const char kWindowTitle[] = "GC2B_07_ナクム_ジェイ_ハルシュバルダン_2秒ゲーム";
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     Novice::Initialize(kWindowTitle, 1280, 720);

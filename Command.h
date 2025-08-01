@@ -17,3 +17,13 @@ class MoveLeftCommand : public ICommand
 public:
 	void Execute(Player& player) override;
 };
+class MoveUpCommand : public ICommand
+{
+public:
+	void Execute(Player& player) override;
+};
+class MoveDownCommand : public ICommand
+{
+public:
+	void Execute(Player& player) override;
+};

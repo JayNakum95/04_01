@@ -22,5 +22,9 @@ private:
 
 	void MoveLeft();// Move the player to the left
 
+	void MoveUp();// Move the player up
+	void MoveDown();// Move the player down
+	Vector2 GetPosition() const { return pos; } // Get the player's position
+
 };
 
